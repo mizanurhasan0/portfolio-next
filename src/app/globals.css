@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Tabs */
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Navbar */
+.bg-white {
+  background-color: transparent;
+
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: white
+}
+
+/* End Tabs */
