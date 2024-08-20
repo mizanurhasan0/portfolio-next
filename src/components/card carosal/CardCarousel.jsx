@@ -10,7 +10,7 @@ export function AppleCardsCarousel() {
 
     return (
         <div className="w-full h-full py-28">
-            <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-8xl font-bold">
+            <h2 className="max-w-7xl pl-4 mx-auto text-xl md:text-6xl font-bold">
                 Know About this Project
             </h2>
             <Carousel items={cards} />

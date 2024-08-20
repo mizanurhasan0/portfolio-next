@@ -6,7 +6,7 @@ import {
     IconExchange,
     IconHome,
     IconNewSection,
-    IconTerminal2,
+    IconBrandInstagram,
     IconInfoCircle,
     IconActivity
 } from "@tabler/icons-react"
@@ -50,6 +50,13 @@ export default function Navbar() {
             title: "Twitter",
             icon: (
                 <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+            ),
+            href: "https://x.com/mizanurhasan0"
+        },
+        {
+            title: "Instragram",
+            icon: (
+                <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
             href: "https://x.com/mizanurhasan0"
         },
