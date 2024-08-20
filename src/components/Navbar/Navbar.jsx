@@ -6,7 +6,9 @@ import {
     IconExchange,
     IconHome,
     IconNewSection,
-    IconTerminal2
+    IconTerminal2,
+    IconInfoCircle,
+    IconActivity
 } from "@tabler/icons-react"
 import Image from "next/image"
 
@@ -17,41 +19,31 @@ export default function Navbar() {
             icon: (
                 <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#"
+            href: "#profile01"
         },
 
         {
-            title: "Products",
+            title: "About",
             icon: (
-                <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+                <IconInfoCircle className="h-full w-full text-neutral-500 " />
             ),
-            href: "#"
+            href: "#about01"
         },
         {
-            title: "Components",
+            title: "Skills",
             icon: (
                 <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#"
+            href: "#skills01"
         },
         {
-            title: "Aceternity UI",
+            title: "Projects",
             icon: (
-                <Image
-                    src="https://assets.aceternity.com/logo-dark.png"
-                    width={20}
-                    height={20}
-                    alt="Aceternity Logo"
+                <IconActivity
+                    className="h-full w-full text-neutral-500"
                 />
             ),
-            href: "#"
-        },
-        {
-            title: "Changelog",
-            icon: (
-                <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#"
+            href: "#projects01"
         },
 
         {
@@ -59,14 +51,14 @@ export default function Navbar() {
             icon: (
                 <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#"
+            href: "https://x.com/mizanurhasan0"
         },
         {
             title: "GitHub",
             icon: (
                 <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
             ),
-            href: "#"
+            href: "https://github.com/mizanurhasan0"
         }
     ]
     return (

@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
       <body className={`${inter.variable} ${playfair.variable}    
        bg-third`}>
         <BGParticle />
-        <div className="mt-5 z-50">
+        <div className="sticky top-0 mt-5 z-50">
           <Navbar />
         </div>
         <div>
