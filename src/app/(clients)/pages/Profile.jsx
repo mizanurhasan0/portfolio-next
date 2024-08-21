@@ -1,5 +1,6 @@
 "use client";
 
+import EncryptButtons from "@/components/C_Button";
 import Card from "@/components/cards/Card";
 import FlipWords from "@/components/flip_words/FlipWords";
 import Typewriter from "@/components/typeText/TextWrite";
@@ -13,9 +14,12 @@ export default function Profile() {
                 <Image src="/profile1.jpeg" alt="ptofile photo" height={300} width={300} className="w-60 xl:w-72" />
             </div>
             <Typewriter />
+            <div className="pb-10">
+                <EncryptButtons />
+            </div>
             <div>
                 <Card >
-                    <div className="flex gap-8 font-thin font-inter">
+                    <div className="flex flex-col sm:flex-row gap-8 font-thin font-inter">
                         <div className="space-y-3">
                             <h4 className="text-2xl xl:text-3xl border-b border-primary pb-2 font-medium">Personal Details</h4>
                             <div className="text-xl xl:text-2xl space-y-2">

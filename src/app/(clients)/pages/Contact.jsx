@@ -1,7 +1,10 @@
+import WavyBackground from '@/components/Wevy Background/WavyBackground'
 import React from 'react'
 
 export default function Contact() {
     return (
-        <div>Contact</div>
+        <div className="relative">
+            <WavyBackground />
+        </div>
     )
 }
