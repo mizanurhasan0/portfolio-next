@@ -5,7 +5,7 @@ export default function Text3D() {
     return (
         <div className="h-10 xl:h-14">
             <div className="test text-xl md:text-4xl xl:text-7xl">
-                Hey! I'am Mizanur Hasan
+                Hey! I am Mizanur Hasan
             </div>
 
             <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
