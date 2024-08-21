@@ -10,7 +10,7 @@ export default function WavyBackground() {
             </p>
             <div className="grid sm:grid-cols-2 items-start gap-16 p-4 mx-auto max-w-4xl bg-white">
                 <div>
-                    <h1 className="text-3xl xl:text-4xl font-extrabold">{`Let's Talk`}</h1>
+                    <h1 className="text-3xl xl:text-4xl font-extrabold">Let s Talk</h1>
                     <p className="text-sm md:text-xl text-secondary mt-4">When it comes to expression our emotions, we have two choices: we can talk them out or we can act them out.</p>
 
                     <div className="mt-12 bg-third/50 p-3 rounded-md shadow-md shadow-primary">

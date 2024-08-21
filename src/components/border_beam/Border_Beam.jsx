@@ -26,7 +26,7 @@ const Beam = ({ className }) => {
         })
 
         return () => {
-            const meteor = meteorRef.current
+            const meteor = meteorRef?.current
             if (meteor) {
                 meteor.removeEventListener("animationend", () => { })
                 meteor.removeEventListener("animationstart", () => { })

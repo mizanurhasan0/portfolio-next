@@ -7,7 +7,7 @@ export default function FlipWords() {
     return (
         <div className="flex justify-center items-center">
             <div className="text-2xl xl:text-3xl mr-auto font-normal text-secondary">
-                I'm skilled in
+                I am skilled in
                 <FlipWordsEffect words={words} />
             </div>
         </div>
